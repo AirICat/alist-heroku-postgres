@@ -5,7 +5,6 @@ ARG DATABASE_URL
 
 WORKDIR /opt/alist/
 ENV DB_TYPE postgres
-ENV DB_SLL_MODE disable
 ADD main /main
 RUN chmod +x /main
 ADD entrypoint.sh /entrypoint.sh
