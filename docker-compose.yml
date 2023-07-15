@@ -3,6 +3,8 @@ services:
     build: alist
     ports: 
       - 80:80
+    environment:
+      - DB_HOST=${DB_HOST}
     volumes:
       - .:/home
 
