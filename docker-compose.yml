@@ -1,0 +1,12 @@
+services:
+  alist:
+    build: alist
+    ports: 
+      - 80:5244
+    volumes:
+      - .:/opt/alist/
+
+volumes:
+  data:
+    driver_opts:
+      size: 1Gi
