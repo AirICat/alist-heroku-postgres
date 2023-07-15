@@ -2,7 +2,7 @@ services:
   alist:
     build: alist
     ports: 
-      - 80:5244
+      - 80:80
     volumes:
       - .:/home
 
