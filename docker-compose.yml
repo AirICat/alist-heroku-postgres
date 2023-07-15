@@ -2,7 +2,7 @@ services:
   alist:
     build: alist
     ports: 
-      - 80:80
+      - 80:5244
     environment:
       - DB_HOST=${DB_HOST}
       - DB_PORT=${DB_PORT}
